@@ -12,7 +12,7 @@ from .routes.cart.controller import cart_ctrl
 from .routes.confirmedorder import confirmed_order
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///db.sqlite3"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:adminadmin@yorklionsrds.chd5uiekjvxl.ca-central-1.rds.amazonaws.com:3306/db"
 app.config["SECRET_KEY"] = "1234"
 
 
