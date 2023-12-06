@@ -1,1 +1,1 @@
-web: gunicorn yorklions:app
+web: gunicorn wsgi:create
