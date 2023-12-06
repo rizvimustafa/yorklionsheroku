@@ -1,1 +1,1 @@
-web: gunicorn yorklions/__init__:app
+web: gunicorn __init__:app
